@@ -86,7 +86,7 @@ def _ensure_dataset_description(output_dir: Path) -> None:
             {
                 "Name": "RBC",
                 "Version": _RBC_VERSION,
-                "CodeURL": "https://github.com/childmindresearch/rbc",
+                "CodeURL": "https://github.com/childmindresearch/rbc-mirror",
             }
         ],
     }
