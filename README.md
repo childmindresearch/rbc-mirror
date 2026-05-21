@@ -19,7 +19,7 @@ Reference implementation of the [Reproducible Brain Charts (RBC)](https://reprob
 Input must be a [BIDS-organized](https://bids-specification.readthedocs.io/) dataset. Neuroimaging tools (AFNI, FSL, ANTs, FreeSurfer) run automatically via Docker by default.
 
 ```bash
-pip install git+https://github.com/childmindresearch/rbc.git
+pip install git+https://github.com/childmindresearch/rbc-mirror.git
 
 # Run the full cross-sectional pipeline
 rbc all /data -o /data/derivatives
